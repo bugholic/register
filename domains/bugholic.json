@@ -1,7 +1,9 @@
 
 {
     "owner": {
-        "username": "bugholic"
+        "username": "bugholic",
+    "email":"developerayu@gmail.com",
+        "preview":"https://bugholic.vercel.app/"
     },
     "records": {
         "CNAME": "bugholic.dev"
