@@ -1,9 +1,27 @@
 {
     "owner": {
-        "username": "Daglaroglou",
+        "username": "daglaroglou",
         "email": "christos.daglaroglou@gmail.com"
     },
-    "record": {
-        "CNAME": "84d4959a-0b89-4158-b857-f2670a983f88.id.repl.co"
-    }
+    "records": {
+        "CNAME": "daglaroglou.github.io",
+        "TXT": [
+            "v=spf1 include:zohomail.eu ~all"
+        ],
+        "MX": [
+            {
+              "target": "mx.zoho.eu",
+              "priority": 10
+            },
+            {
+              "target": "mx2.zoho.eu",
+              "priority": 20
+            },
+            {
+              "target": "mx3.zoho.eu",
+              "priority": 50
+            }
+        ]
+    },
+    "proxied": true
 }
